@@ -1,0 +1,23 @@
+
+
+	data source | f1 | f2 | f3
+
+	examples of filters:
+	where
+	dedup
+	stats
+	....
+
+	imagine we could change the order of filters:
+
+	data source | f1 | f2 | f3
+	data source | f2 | f1 | f3
+	...
+
+	The question is in what order do we want the filters?
+
+	data source | strongest filter | second strongest filter | ...
+
+	
+	data source | filter only women | filter only certain cases of cancer
+	data source | filter only certain of cancer | filter women
