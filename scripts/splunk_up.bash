@@ -2,6 +2,7 @@
 
 # References:
 # - https://hub.docker.com/r/splunk/splunk#quickstart
+# - https://stackoverflow.com/questions/38576337/how-to-execute-a-bash-command-only-if-a-docker-container-with-a-given-name-does
 
 # if splunk is already running - stop
 if [ "$(docker ps -q -f name=splunk)" ]
