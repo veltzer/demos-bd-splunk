@@ -1,10 +1,11 @@
 #!/usr/bin/bash -e
 
-# check that splunk is running
+# References:
+# -
+
 if [ "$(docker ps -q -f name=splunk)" ]
 then
-	echo "splunk is up, killing splunk"
-	docker kill splunk > /dev/null
+	echo "splunk is running"
 else
 	echo "splunk is not running"
 fi
