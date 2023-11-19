@@ -1,1 +1,2 @@
 the splunk browse gives me problems. Fix it.
+add shellcheck checking of all bash scripts in this project.
