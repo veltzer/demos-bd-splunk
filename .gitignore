@@ -112,7 +112,6 @@ coverage.xml
 /deb/mypackage/DEBIAN/control
 
 # generic
-*.log
 
 # scons
 /.sconsign.dblite
