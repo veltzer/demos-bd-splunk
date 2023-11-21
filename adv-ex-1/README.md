@@ -1,4 +1,8 @@
-* import the `access_combined.log` file which is in this folder. call the index "web".
+* import the `access_combined.log` file which is in this folder.
+
+* We want to call the index "web". so first create an index named "web".
+
+* then import the log file into that index.
 
 * create your own query on this index and show some data.
 
