@@ -1,0 +1,6 @@
+* use the same 'web' index we used in the previous exercise.
+
+* create a query whose end result is a table with the "action" fields values
+    and each time these values appeared. Use the 'table' command.
+
+* now create a visulization from that table.
