@@ -23,7 +23,7 @@ Now you need to define the information in the lookup table file and tell Splunk 
 
 - Go to "Settings" and click on "Lookups" under "Knowledge"
 - Click on "Lookup definitions" and then click on "New Lookup Definition"
-- Type a name, like "states_lookup"
+- Type a name, like `states_lookup`
 - Choose the "states.csv" lookup file you just uploaded
 - Click on "Save"
 - Change the "Permissions" of the table to "All apps." You'll find the option in the "Sharing" column in the list of lookup table files (the screen that appears after you saved the file)
@@ -39,9 +39,9 @@ Instead of having to manually use the lookup table, you can configure it when yo
 
 - Go to "Settings" and click on "Lookups" under "Knowledge"
 - Click "+ Add new" in the "Automatic lookups" section
-- Type a name for the lookup, like "autolookup_states"
+- Type a name for the lookup, like `autolookup_states`
 - Choose the lookup table definition you just created
-- In the empty text box for "Apply to," select "source" and type "sub-est2016_all.csv"
+- In the empty text box for "Apply to," select "source" and type `sub-est2016_all.csv`
 - For "Lookup input fields," type "STATE" in both text boxes
 - For "Lookup output fields," specify the fields that you'd like to display in the search results:
     - Type `STNAME` (field in states.csv) and `STNAME` in the text boxes
@@ -59,10 +59,10 @@ Finally, let's use the lookups when searching events.
 - Close the dialog box
 - Run the searches below and ask "What data is each search returning?"
 
-```
+```splunk
 source="sub-est2016_all.csv" |stats values(STNAME) AS STNAME BY STATE
 ```
 
-```
+```splunk
 source="sub-est2016_all.csv" STNAME=Illinois | top limit=20 NAME
 ```
