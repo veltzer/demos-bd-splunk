@@ -1,3 +1,5 @@
+# Importing files into Splunk
+
 * import the attached 'passwd' file into splunk.
 
 * explain to splunk that it is a ":" delimited file.

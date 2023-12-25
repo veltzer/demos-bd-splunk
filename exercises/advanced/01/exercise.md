@@ -1,3 +1,5 @@
+# Job Inspector and Performance
+
 * import the `access_combined.log` file which is in this folder.
 
 * We want to call the index "web". so first create an index named "web".

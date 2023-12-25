@@ -1,7 +1,7 @@
 # Using Lookups
 This time, you'll create lookups that you can later use when searching events.
 
-**Make sure you save the searches. You'll need them later**
+## **Make sure you save the searches. You'll need them later**
 
 ## Upload Data
 Let's upload more data again. This time, upload the data from the **sub-est2016_all.csv** file.
@@ -17,7 +17,6 @@ Let's upload the lookups CSV data manually to Splunk.
 - Click on "Save"
 - Change the "Permissions" of the table to "All apps." You'll find the option in the "Sharing" column in the list of lookup table files (the screen that appears after you saved the file)
 
-
 ## Create a Lookup Definition
 Now you need to define the information in the lookup table file and tell Splunk how that information is related to fields in events.
 
@@ -30,7 +29,7 @@ Now you need to define the information in the lookup table file and tell Splunk 
 
 You can confirm that the lookup works by using the following command:\
 
-```
+```splunk
 source="sub-est2016_all.csv" host="splunk-di" sourcetype="csv" | lookup states.csv STATE OUTPUT STNAME | where STNAME="Illinois"
 ```
 

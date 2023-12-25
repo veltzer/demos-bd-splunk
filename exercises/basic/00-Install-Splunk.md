@@ -1,3 +1,5 @@
+# Install Splunk
+
 ```sh
 ssh -i splunk_key.pem azureuser@IP
 ```

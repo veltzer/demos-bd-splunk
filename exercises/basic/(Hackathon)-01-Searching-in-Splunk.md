@@ -11,7 +11,7 @@ Using the data you uploaded previously (cbg_patterns.csv), answer the following 
 
 If you want, you can save each search. We'll talk about that later. But just in case you finish early...;)
 
-# Google Play Store
+## Google Play Store (1)
 Let's upload more data again. This time, upload the data from Google Play Store Apps(google-play-store-apps.zip) **DON'T EXTRACT THE ZIP, UPLOAD THE ZIP AS IT IS**.
 
 - What's the third most popular category?
@@ -22,9 +22,9 @@ Let's upload more data again. This time, upload the data from Google Play Store 
 - What's the most common sentiment for the `Facebook` app? Positive or negative?
 - What's the rating value for the `Twitter` app?
 
-# Solution
-## Census Data
-- What's the top brand in 2018? 
+## Solution
+### Census Data
+- What's the top brand in 2018?
 `source="cbg_patterns.csv" host="splunk" index="cbg" sourcetype="csv" date_year="2018"| top limit=20 top_brands`
 `["United States Postal Service (USPS)"]`
 
@@ -44,7 +44,7 @@ Let's upload more data again. This time, upload the data from Google Play Store 
 `source="cbg_patterns.csv" host="splunk" index="cbg" sourcetype="csv" top_brands="*McDonalds*"`
 `4,082`
 
-## Google Play Store
+### Google Play Store (2)
 - What's the third most popular category?
 `source="google-play-store-apps.zip:*" host="splunk" index="playstore"| top limit=3 Category`
 `TOOLS`
@@ -58,7 +58,7 @@ Let's upload more data again. This time, upload the data from Google Play Store 
 `source="google-play-store-apps.zip:*" host="splunk" index="playstore" "Android Ver"="5.0 and up" | dedup App`
 `512`
 
-- How many installations have had the `Bowmasters` app? 
+- How many installations have had the `Bowmasters` app?
 `source="google-play-store-apps.zip:*" host="splunk" index="playstore" App="Bowmasters" Installs=* | dedup Installs | table Installs`
 `50,000,000+`
 
