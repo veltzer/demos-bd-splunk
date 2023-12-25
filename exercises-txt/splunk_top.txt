@@ -1,9 +1,7 @@
+What will (probably) this splunk search return:
 
+index=access_logs | top 2 status
 
-	What will (probably) this splunk search return:
+this will probably return 200
 
-	index=access_logs | top 2 status
-
-	this will probably return 200
-
-	200
+200
