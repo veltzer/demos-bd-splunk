@@ -12,7 +12,7 @@ in the month of May.
 
     All of these should ONLY be for the month of May.
 
-* Now, turn the quert that you wrote in the previous phase into a macro that receives
+* Now, turn the query that you wrote in the previous phase into a macro that receives
     the name of the month as argument.
 
 * Show how you use your newly-created Macro.

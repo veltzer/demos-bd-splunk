@@ -5,4 +5,4 @@
 * create a query whose end result is a table with the "action" fields values
     and each time these values appeared. Use the 'stats' command.
 
-* now create a visulization from that table.
+* now create a visualization from that table.

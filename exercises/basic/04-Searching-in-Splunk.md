@@ -78,7 +78,7 @@ You'll need to extract some fields like referrer, referrer_domain, and useragent
 Search the access logs and return 20 most common values for a field
 
 **Example 1: Return the 20 most common values for a field**
-This search returns the 20 most common values of the "referer" field. The results show the number of events (count) that have that a count of referer, and the percent that each referer is of the total number of events.
+This search returns the 20 most common values of the "referrer" field. The results show the number of events (count) that have that a count of referrer, and the percent that each referrer is of the total number of events.
 
 ```splunk
 sourcetype=access_* | top limit=20 referrer
@@ -88,13 +88,13 @@ sourcetype=access_* | top limit=20 referrer
 Search the access logs and return top values for one field organized by another field
 
 **Example 2: Return top values for one field organized by another field**
-This search returns the top "action" values for each "referer_domain".
+This search returns the top "action" values for each "referrer_domain".
 
 ```splunk
 sourcetype=access_* | top action by referer_domain
 ```
 
-Because a limit is not specified, this returns all the combinations of values for "action" and "referer_domain" as well as the counts and percentages.
+Because a limit is not specified, this returns all the combinations of values for "action" and "referrer_domain" as well as the counts and percentages.
 
 ## Specifying multiple aggregations and multiple by-clause fields
 Upload the access.log file
@@ -166,7 +166,7 @@ Using the if function, set the value in the status field to OK if the error valu
 ```
 
 ## Dealing with Time
-Upload the userdataset.csv file and then search for _time & usr. Also use the eval tool to:
+Upload the userdataset.csv file and then search for _time & user. Also use the eval tool to:
 
 - Convert _time data into %I:%M %p format.
 - Convert _time data into %d %B,%I:%M %p format.

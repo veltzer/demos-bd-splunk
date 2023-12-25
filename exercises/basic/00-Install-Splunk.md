@@ -26,7 +26,7 @@ Now open at your browser the [URL](http://localhost:8000)
 
 ## Download Links
 
-MacOs
+MacOS
 
 ```url
 https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86&platform=macos&version=8.1.2&product=splunk&filename=splunk-8.1.2-545206cc9f70-macosx-10.11-intel.dmg&wget=true

@@ -1,9 +1,9 @@
 # Create a statistical report based on search results
 Use data you've uploaded from the access.log file to Splunk.
 
-Create a report by request type, url and status code. Such as How many requests were passed, failed and so on in an hour.
+Create a report by request type, URL and status code. Such as How many requests were passed, failed and so on in an hour.
 
-We would need to produce a report by request type, url and status code.
+We would need to produce a report by request type, URL and status code.
 
 How many requests were passed, failed and so on in an hour.
 

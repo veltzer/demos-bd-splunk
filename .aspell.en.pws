@@ -1,4 +1,4 @@
-personal_ws-1.1 en 991 
+personal_ws-1.1 en 1020 
 AARRR
 ACLs
 ADPlus
@@ -17,6 +17,8 @@ AVD
 Accessors
 Ack
 ActiveMQ
+AirBnB
+AirBnb
 Alertmanager
 Amdocs
 Ansible
@@ -52,6 +54,7 @@ Bootloaders
 Buildroot
 Burndown
 BusyBox
+CBG
 CDN
 CDash
 CICD
@@ -178,6 +181,7 @@ EnableAutoConfiguration
 Endedness
 Extjs
 FFT
+FIFA
 FS
 FSx
 Fargate
@@ -312,6 +316,7 @@ LogStack
 LogStash
 Logstash
 Logz
+Lookups
 Looper
 Lucene
 LynuxWorks
@@ -488,10 +493,12 @@ SSL
 SSO
 SSRF
 STL
+STNAME
 SUID
 SVD
 SVM
 SYSV
+SafeGraph
 SageMaker
 Schemas
 SciPy
@@ -528,6 +535,7 @@ SurfaceFlinger
 Synchronizer
 Synchronizers
 SysRq
+SystemID
 SystemTap
 TBD
 TCL
@@ -561,6 +569,7 @@ UEFI
 UI
 UIs
 UML
+USGS
 UTF
 UX
 Un
@@ -645,6 +654,7 @@ buildstats
 busses
 callgrind
 canonicalization
+cbg
 cd
 cgroups
 chatbot
@@ -655,6 +665,7 @@ chown
 chrt
 ci
 cli
+clientip
 cloudnative
 cmake
 cmd
@@ -674,6 +685,7 @@ creational
 crosstool
 crypto
 csh
+csv
 cve
 cyclictest
 dataset
@@ -681,6 +693,7 @@ datetime
 de
 debugfs
 debuggable
+dedup
 defconfigs
 deliverables
 deque
@@ -707,7 +720,9 @@ elif
 enum
 enums
 epoll
+erex
 ethernet
+eval
 eventfd
 exe
 executables
@@ -717,6 +732,7 @@ facter
 facto
 fdisk
 fds
+fifa
 fifo
 filesystem
 filesystems
@@ -735,6 +751,7 @@ gRPC
 gcd
 gdb
 gdbserver
+geo
 getpid
 gettid
 gettimeofday
@@ -794,6 +811,8 @@ lmdb
 ln
 lockdep
 lockless
+lon
+lookups
 loopback
 macOS
 magick
@@ -806,6 +825,7 @@ md
 medoids
 mem
 memmap
+mens
 microk
 mk
 mkdir
@@ -883,6 +903,7 @@ repo
 repos
 resolvers
 retainment
+rex
 rmdir
 rpath
 rpcgen
@@ -891,6 +912,7 @@ runnable
 runtime
 rwlocks
 safetiness
+sampledata
 sar
 sbin
 sbrk
@@ -911,6 +933,9 @@ siginterrupt
 signalfd
 sigprocmask
 solrconfig
+sortby
+sourcetype
+sourcetypes
 spidering
 spinlock
 spinlocks
@@ -921,6 +946,7 @@ strace
 struct
 stylesheets
 subnets
+subsearch
 sudo
 syllabi
 sys
@@ -961,6 +987,8 @@ uniq
 unittest
 unmangled
 uring
+useragent
+userdataset
 userspace
 valgrind
 variadic
@@ -980,6 +1008,7 @@ webkit
 weblogic
 webserver
 wic
+winlogs
 worktree
 worktrees
 writev
