@@ -1,4 +1,4 @@
-#!/usr/bin/bash -e
+#!/bin/bash -e
 
 # References:
 # - https://hub.docker.com/r/splunk/splunk#quickstart
