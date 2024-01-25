@@ -6,4 +6,4 @@
 
 * give names to all the fields.
 
-* what do you about the "_time" field?
+* what do you do about the "_time" field?
