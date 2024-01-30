@@ -1,3 +1,4 @@
+# Solution
 
 ```splunk
 index="web" | rename status as state | rename bytes as status | table _time, status, state

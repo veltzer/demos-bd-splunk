@@ -7,6 +7,6 @@
 
 * Count the number of times the status == 200 using `eval` and `stats count`
 
-* Create a new field called success which is boolean and which is true IFF status=200
+* Create a new field called success which is boolean and which is true if and only if status=200
 
-* Calculate length of seesions using `JSESSIONID` just like in the slides. Use `eval`, `tostring`
+* Calculate length of sessions using `JSESSIONID` just like in the slides. Use `eval`, `tostring`
