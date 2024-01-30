@@ -2,7 +2,7 @@
 
 Query to check that the lookup works fine:
 
-``splunk
+```splunk
 index="web" | stats values(product_name) as product_name| lookup product_name_to_price_new.csv product_name OUTPUT price
 ```
 
