@@ -15,9 +15,9 @@ jobs:
 % endfor
     steps:
     - name: checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - name: python ${"${{ matrix.python-version }}"}
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: ${"${{ matrix.python-version }}"}
     - name: bootstrap-pip
