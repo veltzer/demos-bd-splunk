@@ -1,4 +1,4 @@
-# Importing files into Splunk
+# Tuning Splunk Import
 
 * import the attached `passwd` file into splunk.
 
