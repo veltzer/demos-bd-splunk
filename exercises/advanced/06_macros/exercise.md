@@ -1,6 +1,6 @@
 # Macros
 
-* again, we will the access_combined.log
+* again, we will the `access_combined.log`
 
 * create a search query that provides number of times every action was executed
 in the month of May.
