@@ -26,7 +26,7 @@ Q:=@
 #.SILENT:
 endif # DO_MKDBG
 
-ALL_SH:=$(shell find scripts -type f -and -name "*.bash")
+ALL_SH:=$(shell find scripts -type f -and -name "*.sh")
 ALL_STAMP:=$(addprefix out/, $(addsuffix .stamp, $(ALL_SH)))
 MD_SRC:=$(shell find exercises -type f -and -name "*.md")
 MD_BAS:=$(basename $(MD_SRC))
@@ -55,7 +55,7 @@ all: $(ALL)
 .PHONY: check
 check:
 	$(info doing [$@])
-	$(Q)git grep "<<" scripts | grep -v "'COMMENT'" | grep -v "<<<" | grep -v multi_line_comment.bash || exit 0
+	$(Q)git grep "<<" scripts | grep -v "'COMMENT'" | grep -v "<<<" | grep -v multi_line_comment.sh || exit 0
 
 .PHONY: debug
 debug:
