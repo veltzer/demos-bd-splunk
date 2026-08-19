@@ -58,7 +58,7 @@ Create a table with data of earthquakes in California with table name as “Eart
 place=*California index="earthquakes" | table time, place, mag, depth
 ```
 
-2) Create a table with data of earthquake in California with table name as “Earthquake_Usage” with fields as time, place, lat*, lon* mag, depth using CSV file.  Also change the name of lat and lon fields to latitude and longitude respectively.
+2) Create a table with data of earthquake in California with table name as “Earthquake_Usage” with fields as time, place, lat*, lon* mag, depth using CSV file. Also change the name of lat and lon fields to latitude and longitude respectively.
 
 Show the date, time, coordinates, and magnitude of each recent earthquake in Northern California.
 
@@ -67,7 +67,7 @@ place=*California index="earthquakes" | rename latitude as lat longitude as lon 
 ```
 
 ## Return the 20 most common values for a field
-Upload the access log files [here](https://drive.google.com/file/d/1UHmGW9pRCduUlf37gW-SveBMMDAGrQpy/view?usp=sharing)
+Upload [the access log files (Google Drive)](https://drive.google.com/file/d/1UHmGW9pRCduUlf37gW-SveBMMDAGrQpy/view?usp=sharing)
 
 You'll need to extract some fields like referrer, referrer_domain, and useragent. You can use [this page](https://httpd.apache.org/docs/1.3/logs.html) as a reference to know where each field is located at, or you can use the following regular expression when extracting new fields (you can go back to the lab we did previously for extracting new fields):
 

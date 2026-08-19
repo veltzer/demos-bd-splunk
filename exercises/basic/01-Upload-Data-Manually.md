@@ -20,7 +20,7 @@ We also combined this GPS data with our dataset of five million building footpri
 - How many events do you see?
 
 ## Upload the AirBnb data
-[here](https://drive.google.com/file/d/1jA-vPhxVmB7J2SA5aJdv5bQHnUGXYMHP/view?usp=sharing)
+[AirBnb data set (Google Drive)](https://drive.google.com/file/d/1jA-vPhxVmB7J2SA5aJdv5bQHnUGXYMHP/view?usp=sharing)
 
 ## Upload the Titanic data
-[here](https://drive.google.com/file/d/1441FMdh2m-8gcLa1OXWNY_8BmJmzDK3U/view?usp=sharing)
+[Titanic data set (Google Drive)](https://drive.google.com/file/d/1441FMdh2m-8gcLa1OXWNY_8BmJmzDK3U/view?usp=sharing)
