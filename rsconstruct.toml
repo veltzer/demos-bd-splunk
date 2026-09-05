@@ -3,14 +3,14 @@
 [analyzer.markdown]
 
 [processor.rumdl]
-src_dirs = ["exercises"]
+src_dirs = ["exercises", "examples"]
+src_files = ["README.md"]
 
 [processor.zspell]
 src_dirs = ["exercises"]
 
 [processor.shellcheck]
 src_dirs = ["scripts", "exercises"]
-args = ["--severity=error", "--shell=bash"]
 
 # ─── toml / yaml / json ──────────────────────────────────────────────────────
 
@@ -20,3 +20,8 @@ src_dirs = ["."]
 # lint the GitHub Actions workflow files with actionlint
 [processor.actionlint]
 src_dirs = [".github/workflows"]
+
+# ─── json ────────────────────────────────────────────────────────────────────
+
+[processor.ijsonlint]
+src_dirs = ["data"]

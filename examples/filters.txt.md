@@ -1,3 +1,5 @@
+# Filters
+
 The general form of a splunk query:
     data source | f1 | f2 | f3
 
@@ -9,9 +11,11 @@ stats
 
 we chan change the order of filters:
 
+```text
 data source | f1 | f2 | f3
 data source | f2 | f1 | f3
 ...
+```
 
 In we have N filters we can reorder the filters in N! ways.
 
@@ -24,5 +28,8 @@ Why?
 TBD
 
 It is obvous that the second of these is better
+
+```text
 data source | filter only women | filter only certain cases of cancer
 data source | filter only certain of cancer | filter women
+```

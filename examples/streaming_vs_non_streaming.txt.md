@@ -1,3 +1,5 @@
+# Streaming vs non streaming
+
 index=web | status=200 | dedup | fields ...
 
 All commands here are "streaming" command.

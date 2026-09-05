@@ -1,3 +1,5 @@
+# Dedup more than one field
+
 Lets say we web logs from 10 different servers (field=host)
 And we do
 

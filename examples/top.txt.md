@@ -1,3 +1,5 @@
+# Top
+
 What will (probably) this splunk search return:
 
 index=access_logs | top 2 status
