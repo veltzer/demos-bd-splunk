@@ -1,4 +1,5 @@
 # Census Data
+
 Using the data you uploaded previously (cbg_patterns.csv), answer the following questions:
 
 **HINT**: There's no "brand" field, so use the "top_brands" field. I know, it's not a typical field because there are events that has more than one value (an array), but that's the complexity.
@@ -12,6 +13,7 @@ Using the data you uploaded previously (cbg_patterns.csv), answer the following 
 If you want, you can save each search. We'll talk about that later. But just in case you finish early...;)
 
 ## Google Play Store (1)
+
 Let's upload more data again. This time, upload the data from Google Play Store Apps(google-play-store-apps.zip) **DON'T EXTRACT THE ZIP, UPLOAD THE ZIP AS IT IS**.
 
 - What's the third most popular category?
@@ -23,6 +25,7 @@ Let's upload more data again. This time, upload the data from Google Play Store 
 - What's the rating value for the `Twitter` app?
 
 ## Solution
+
 ### Census Data
 - What's the top brand in 2018?
 `source="cbg_patterns.csv" host="splunk" index="cbg" sourcetype="csv" date_year="2018"| top limit=20 top_brands`

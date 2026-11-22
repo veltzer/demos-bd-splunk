@@ -8,6 +8,7 @@ You can create reports via Splunk four ways:
 * From a dashboard, by converting an inline-search-powered dashboard panel to a report
 
 ## Schedule Report From a Saved Search
+
 Choose a saved search you've already created (or create a new one, just to keep practicing). After choosing a saved search, **schedule it as a report that will be sent daily at 6 PM.**
 
 * Edit the report
@@ -16,6 +17,7 @@ Choose a saved search you've already created (or create a new one, just to keep 
 * Configure the schedule
 
 ## Schedule Report From a Dashboard
+
 Choose an existing dashboard or create a new one. Then **schedule it as a report that will be sent on Monday, Wednesday, and Friday at 8 AM.**
 
 * Edit the report

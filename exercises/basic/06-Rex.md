@@ -1,4 +1,5 @@
 # Create a statistical report based on search results
+
 Use data you've uploaded from the access.log file to Splunk.
 
 Create a report by request type, URL and status code. Such as How many requests were passed, failed and so on in an hour.
@@ -27,6 +28,7 @@ index="accesslog"
 Regex is helpful in transforming your horrible-looking machine logs into beautiful human-understandable reports and you can create from here dashboards that are easy to understand and use. As you've seen previously, you could extract fields using a regular expression in case you don't want to include it in a search query.
 
 ## Using erex, regex, rex
+
 Use erex, regex, rex in Splunk to generate regular expressions by:
 
 * Providing a list of values from the data

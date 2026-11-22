@@ -1,12 +1,15 @@
 # Using Lookups
+
 This time, you'll create lookups that you can later use when searching events.
 
 ## **Make sure you save the searches. You'll need them later**
 
 ## Upload Data
+
 Let's upload more data again. This time, upload the data from the **sub-est2016_all.csv** file.
 
 ## Upload the Lookups Data
+
 Let's upload the lookups CSV data manually to Splunk.
 
 - Download the "States" file (**sub-est2016_all_states.csv**), **THIS IS A DIFFERENT FILE** from the previous task.
@@ -18,6 +21,7 @@ Let's upload the lookups CSV data manually to Splunk.
 - Change the "Permissions" of the table to "All apps." You'll find the option in the "Sharing" column in the list of lookup table files (the screen that appears after you saved the file)
 
 ## Create a Lookup Definition
+
 Now you need to define the information in the lookup table file and tell Splunk how that information is related to fields in events.
 
 - Go to "Settings" and click on "Lookups" under "Knowledge"
@@ -34,6 +38,7 @@ source="sub-est2016_all.csv" host="splunk-di" sourcetype="csv" | lookup states.c
 ```
 
 ## Lookup Automatically
+
 Instead of having to manually use the lookup table, you can configure it when you want to apply a field lookup to the events when searching.
 
 - Go to "Settings" and click on "Lookups" under "Knowledge"
@@ -48,6 +53,7 @@ Instead of having to manually use the lookup table, you can configure it when yo
 - Go to the lookups page again. Click on the lookup you just created and change the permissions. It shouldn't be private; it should have read access for "Everyone" and be available for any app.
 
 ## Search Using the Lookups
+
 Finally, let's use the lookups when searching events.
 
 - Go back to the search page

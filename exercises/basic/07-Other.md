@@ -14,6 +14,7 @@ Split the data into multiple columns using eval and rex.
 ```
 
 ## Remove Null Entries from Chart
+
 Remove all the Null Entries from chart using eval and If command.
 
 ```splunk
