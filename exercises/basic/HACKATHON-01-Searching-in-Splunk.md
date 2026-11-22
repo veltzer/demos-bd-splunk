@@ -27,6 +27,7 @@ Let's upload more data again. This time, upload the data from Google Play Store 
 ## Solution
 
 ### Census Data
+
 - What's the top brand in 2018?
 `source="cbg_patterns.csv" host="splunk" index="cbg" sourcetype="csv" date_year="2018"| top limit=20 top_brands`
 `["United States Postal Service (USPS)"]`
@@ -48,6 +49,7 @@ Let's upload more data again. This time, upload the data from Google Play Store 
 `4,082`
 
 ### Google Play Store (2)
+
 - What's the third most popular category?
 `source="google-play-store-apps.zip:*" host="splunk" index="playstore"| top limit=3 Category`
 `TOOLS`

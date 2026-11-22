@@ -11,6 +11,7 @@ Present the data as if you were going to build a report.
 * What are the min, avg, and max rank numbers for Italy for all time?
 
 ## Solution
+
 * What's the average rank number for Spain in 2018?
 `source="fifa-international-soccer-mens-ranking-1993now.zip:*" host="splunk" index="fifa" country_full="Spain" | stats avg(rank)`
 `5.321678321678322`

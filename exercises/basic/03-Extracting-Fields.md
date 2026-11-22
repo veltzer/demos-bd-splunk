@@ -18,5 +18,6 @@ Let's provide a name SystemID to a first field in `userdataset.csv` using Regula
 - Name the extraction and set permissions
 
 ## Search
+
 - Search using the new fields, for example, `systemid`: `host=userdataset systemid=*`
 - Look for the new fields you've extracted
