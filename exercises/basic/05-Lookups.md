@@ -2,7 +2,7 @@
 
 This time, you'll create lookups that you can later use when searching events.
 
-## **Make sure you save the searches. You'll need them later**
+**Make sure you save the searches. You'll need them later.**
 
 ## Upload Data
 

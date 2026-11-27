@@ -26,7 +26,7 @@ Let's upload more data again. This time, upload the data from Google Play Store 
 
 ## Solution
 
-### Census Data
+### Census Data Answers
 
 - What's the top brand in 2018?
 `source="cbg_patterns.csv" host="splunk" index="cbg" sourcetype="csv" date_year="2018"| top limit=20 top_brands`
