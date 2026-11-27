@@ -1,7 +1,10 @@
 # Filters
 
 The general form of a splunk query:
-    data source | f1 | f2 | f3
+
+```text
+data source | f1 | f2 | f3
+```
 
 examples of filters:
 where

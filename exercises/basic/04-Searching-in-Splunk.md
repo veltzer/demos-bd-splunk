@@ -56,7 +56,7 @@ If you want to get the oldest (not the newest) event with a unique user, use the
 
 ## Search for recent earthquakes in and around Hawaii
 
-Create a table with data of earthquakes in California with table name as “Earthquake_Usage” with fields as time, place, mag, depth using a CSV file. The table command returns a table that is formed by only the fields that you specify in the arguments. You can download a current CSV file from the [USGS Earthquake Feeds](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv) and add it as an input to your Splunk deployment.
+Create a table with data of earthquakes in California with table name as "Earthquake_Usage" with fields as time, place, mag, depth using a CSV file. The table command returns a table that is formed by only the fields that you specify in the arguments. You can download a current CSV file from the [USGS Earthquake Feeds](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv) and add it as an input to your Splunk deployment.
 
 1) Search for recent earthquakes in and around Hawaii and display only the time of the quake (Datetime), where it occurred (Region), and the quake's magnitude (Magnitude) and depth (Depth).
 
@@ -64,7 +64,7 @@ Create a table with data of earthquakes in California with table name as “Eart
 place=*California index="earthquakes" | table time, place, mag, depth
 ```
 
-2) Create a table with data of earthquake in California with table name as “Earthquake_Usage” with fields as time, place, lat*, lon* mag, depth using CSV file. Also change the name of lat and lon fields to latitude and longitude respectively.
+2) Create a table with data of earthquake in California with table name as "Earthquake_Usage" with fields as time, place, lat*, lon* mag, depth using CSV file. Also change the name of lat and lon fields to latitude and longitude respectively.
 
 Show the date, time, coordinates, and magnitude of each recent earthquake in Northern California.
 
